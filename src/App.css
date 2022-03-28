@@ -1,0 +1,300 @@
+/* Rıdvan Üçdağ - Chat Application */
+* {
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    letter-spacing: 0.5px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-chat-list {
+    background-color: rgb(240, 240, 240) !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-chats-container {
+    background-color: rgb(235, 235, 235) !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-active-chat-card {
+    background-color: #cce4e4 !important;
+    border: 4px solid #e2a683 !important;
+    border-radius: 0px !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-chat-subtitle-text {
+    color: #2f00ff !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-chat-form-container {
+    padding-bottom: 20px !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-text-input {
+    border-radius: 6px !important;
+    border: 1px solid #3b2a50 !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-primary-button {
+    border-radius: 6px !important;
+    background-color: #18a770 !important;
+    position: relative;
+    bottom: 1px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-danger-button {
+    background-color: white !important;
+    border-radius: 22px !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-settings {
+    background-color: rgb(240, 240, 240) !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-autocomplete-input {
+    border-radius: 6px !important;
+    border: 1px solid #3b2a50 !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-autocomplete-options {
+    border-radius: 6px !important;
+    border: 1px solid #3b2a50 !important;
+    background-color: white !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-chat-settings-container {
+    padding-top: 12px !important;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .ce-chat-avatars-row {
+    display: none !important;
+  }
+  
+  /* CUSTOM FEED */
+  /* Rıdvan Üçdağ - Chat Application */
+  .chat-feed {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-color: rgb(240, 240, 240);
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .chat-title-container {
+    width: calc(100% - 36px);
+    padding: 18px;
+    text-align: center;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .chat-title {
+    color: #db220a;
+    font-weight: 800;
+    font-size: 28px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .chat-subtitle {
+    color: #f80000;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 4px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message-row {
+    float: left;
+    width: 100%;
+    display: flex;
+    margin-left: 18px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message-block {
+    width: 100%;
+    display: inline-block;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message {
+    padding: 11px;
+    font-size: 18px;
+    border-radius: 6px;
+    max-width: 60%;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message-image {
+    margin-right: 18px;
+    object-fit: cover;
+    border-radius: 6px;
+    height: 30vw;
+    /* width: 30vw; */
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 100px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .read-receipts {
+    position: relative;
+    bottom: 6px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .read-receipt {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    margin: 1.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message-form-container {
+    position: absolute;
+    bottom: 0px;
+    width: calc(100% - 36px);
+    padding: 18px;
+    background-color: rgb(240, 240, 240);
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message-form {
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid #2a504b;
+    background-color: white;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .message-input {
+    height: 50px;
+    width: calc(100% - 132px);
+    background-color: white;
+    border: 1px solid white;
+    padding: 0px 18px;
+    outline: none;
+    font-size: 18px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .image-button {
+    cursor: pointer;
+    padding: 0px 12px;
+    height: 100%;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .send-button {
+    height: 42px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 0px 18px;
+    cursor: pointer;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .send-icon {
+    top: 1px;
+    position: relative;
+    transform: rotate(-90deg);
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .picture-icon {
+    top: 1px;
+    position: relative;
+    font-size: 14px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  /* FORM STYLES */
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .wrapper {
+    height: 100vh;
+      width: 100%;
+    background: rgb(117,84,160);
+    background:#611c1c ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .input {
+    color: #333;
+    font-size: 1.2rem;
+      margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    outline: none;
+    margin-bottom: 25px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .form {
+    width: 600px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .title {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 2em;;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .button {
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+    width: 90%;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .button:hover span {
+    padding-right: 25px;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /* Rıdvan Üçdağ - Chat Application */
+
+  .error{
+    
+    color: rgb(255, 255, 255);
+  }
